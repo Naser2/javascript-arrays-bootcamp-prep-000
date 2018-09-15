@@ -8,7 +8,7 @@ function addElementToBeginningOfArray(array, element) {
 	  return [element, ...array]
 	}
 
-function removeElementFromBeginningOfArray(arrayt){
+function removeElementFromBeginningOfArray(array){
  array.shift(element);
  return array
 }
