@@ -29,3 +29,10 @@ accessElementInArray = function(array, index) {
 	function removeElementFromEndOfArray(array){
 	  return array.shift()
 	}
+	
+	function destructivelyRemoveElementFromBeginningOfArray(array) {
+	  array.shift()
+	
+
+	  return array
+	}
