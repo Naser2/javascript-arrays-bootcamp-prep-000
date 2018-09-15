@@ -27,5 +27,5 @@ accessElementInArray = function(array, index) {
 	}
 	
 	function removeElementFromEndOfArray(array){
-	  array.pop
+	  array.pop(element)
 	}
