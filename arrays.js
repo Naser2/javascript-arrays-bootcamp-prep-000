@@ -26,4 +26,6 @@ accessElementInArray = function(array, index) {
 	  return array[index]
 	}
 	
-	
+	function removeElementFromEndOfArray(array){
+	  array.pop
+	}
