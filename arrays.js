@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element) {
 	}
 
 function removeElementFromBeginningOfArray(arrayt){
- array.pop([element, ...array,]);
+ array.pop(element, ...array);
  return array
 }
 
