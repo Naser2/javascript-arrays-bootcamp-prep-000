@@ -29,7 +29,12 @@ accessElementInArray = function(array, index) {
 removeElementFromEndOfArray = 	function(array){
 	  return array.shift()
 	}
+	function destructivelyRemoveElementFromEndOfArray(array) {
+	  array.pop()
 	
+
+	  return array
+	}
 	
 function destructivelyRemoveElementFromBeginningOfArray(array) {
 	  array.shift()
