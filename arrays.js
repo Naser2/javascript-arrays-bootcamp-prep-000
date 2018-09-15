@@ -8,11 +8,13 @@ function addElementToBeginningOfArray(array, element) {
 	  return [element, ...array]
 	}
 
-function removeElementFromBeginningOfArray(array){
- array.shift(element);
- return array
-}
+	function destructivelyRemoveElementFromBeginningOfArray(array) {
+	  array.shift()
+	
 
+	  return array
+	}
+	
 function removeElementFromBe(array) {
 	  return array.slice(0, array.length - 1)
 	}
