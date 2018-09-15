@@ -10,6 +10,10 @@ function addElementToEndOfArray(array, element){
  return array
 }
 
+function addElementToEndOfArray(array, element){
+ [element, ...array];
+ return array
+}
 // function destructivelyAddElementToEndOfArray(array, element){
 //   array.push(element);
 //   return array;
