@@ -17,6 +17,11 @@ function addElementToEndOfArray(array, element){
  return [element, ...array];
 
 }
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+	  array.shift()
+	  return array
+	}
+	
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array;
@@ -30,10 +35,7 @@ removeElementFromEndOfArray = 	function(array){
 	  return array.shift()
 	}
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-	  array.shift()
-	  return array
-	}
+
 
 	function destructivelyRemoveElementFromEndOfArray(array) {
 	  array.pop()
