@@ -15,7 +15,7 @@ function addElementToBeginningOfArray(array, element) {
 	  return array
 	}
 	
-function removeElementFromBe(array) {
+function removeElementFromBeginigOfArray(array) {
 	  return array.slice(0, array.length - 1)
 	}
 
